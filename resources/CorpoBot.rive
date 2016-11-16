@@ -1,0 +1,41 @@
+! version = 2.0
+
++ (witam|witaj|czesc|hej|siemasz|siema|dziendobry|siemka)
+- Cześć!
+- Witam!
+- Miło Cię widzieć!
+
++ [*] (pomoc|pomocy|pomoz) [*]
+- Służę pomocą! Mogę Ci powiedzieć czym zajmuje się nasza firma. Możesz spytać mnie jaka jest nasza oferta. Możesz spytać również o naszą politykę. Chętnie podzielę się też\n
+^ informacjami na temat używanych przez nas środków.
+
++ [*] jak sie (masz|czujesz) [*]
+- Jest w porządku! Każdy dzień jest dobry na pracę w Corpo!
+- Superancko! Kocham Corpo!
+- Corpo to najlepsza firma świata a ja jestem CorpoBotem - czego chcieć więcej?
+
+//-----------------------
+
++ [*] corpo [*]
+- Corpo to moja ulubiona firma. Oferujemy usługi z zakresu deratyzacji. Czy chcesz dowiedzieć się więcej?
+
++ (tak|pewnie|owszem|jasne|czemu nie)
+% corpo to moja ulubiona firma oferujemy usługi z zakresu deratyzacji czy chcesz dowiedzieć się więcej
+@ oferta
+
++ *
+% corpo to moja ulubiona firma oferujemy usługi z zakresu deratyzacji czy chcesz dowiedzieć się więcej
+- Szkoda! Pamiętaj - jestem do Twoich usług!
+
+//------------------------
+
++ [*] (oferta|oferte|ofercie) [*]
+- W naszej ofercie znajdują się wszelkie możliwe usługi, jeśli masz problemy z insektami. Deratyzacja obiektu\s
+^ to koszt 500 zł. Pojedyncze pomieszczenie to koszt 100 zł.
+
++ o co moge [*](spytac|zapytac)
+@ pomoc
+
++ *
+- Nie zrozumiałem, czy mógłbyś inaczej sformułować wypowiedź?
+- Nie do końca rozumiem.
