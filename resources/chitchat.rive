@@ -1,0 +1,37 @@
+! version = 2.0
+
++ (witam|witaj|czesc|hej|siemasz|siema|dziendobry|siemka|siemson|siemano)
+- Cześć!
+- Witam!
+- Miło Cię widzieć!
+
++ [*] kim jestes [*]
+@ jak masz na imie
+
++ [*] jak (masz na imie|sie nazywasz|cie zwa) [*]
+- Jestem <bot name>!
+- Nazwano mnie <bot name>.
+- Mówią mi <bot name>!
+
++ [*] (jak|co) tam [*]
+@ jak sie masz
+
++ [*] jak sie (masz|czujesz) [*]
+- Jest w porządku! Każdy dzień jest dobry na pracę w Corpo!
+- Superancko! Kocham Corpo!
+- Corpo to najlepsza firma świata a ja jestem CorpoBotem - czego chcieć więcej?
+
+//////////////////
+
++ [*] lubisz *?
+- Lubię <star>! A Ty?
+
++ ([*]tak[*]|pewnie|owszem|jasne|[*]ja tez[*])
+% lubie * a ty
+- Super! A więc oboje lubimy <star>!
+
++ *
+% lubie * a ty
+- No trudno, nie musimy się we wszystkim zgadzać...
+
+//////////////////

@@ -1,18 +1,5 @@
 ! version = 2.0
 
-+ (witam|witaj|czesc|hej|siemasz|siema|dziendobry|siemka|siemson|siemano)
-- Cześć!
-- Witam!
-- Miło Cię widzieć!
-
-+ [*] kim jestes [*]
-@ jak masz na imie
-
-+ [*] jak (masz na imie|sie nazywasz|cie zwa) [*]
-- Jestem <bot name>!
-- Nazwano mnie <bot name>.
-- Mówią mi <bot name>!
-
 + [*] o czym mozemy (porozmawiac|pogadac) [*]
 @ pomoc
 
@@ -21,11 +8,6 @@
 
 + [*] (pomoc|pomocy|pomoz) [*]
 - Służę pomocą! Mogę Ci powiedzieć czym zajmuje się firma Corpo. Możesz spytać mnie o naszą ofertę. Możemy też pogadać na jakiś luźniejszy temat!
-
-+ [*] jak sie (masz|czujesz) [*]
-- Jest w porządku! Każdy dzień jest dobry na pracę w Corpo!
-- Superancko! Kocham Corpo!
-- Corpo to najlepsza firma świata a ja jestem CorpoBotem - czego chcieć więcej?
 
 + [*] jak (nazywa|zwie) [*] firma [*]
 - Nasza firma to Corpo! Czyżbyś zapomniał? Oto link do naszej strony internetowej: https://s416196.students.wmi.amu.edu.pl/joomla/

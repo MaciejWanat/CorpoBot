@@ -1,0 +1,105 @@
+! version = 2.0
+
+// Bot variables
+! var name = CorpoBot
+
+//Code
+
++ (witam|witaj|czesc|hej|siemasz|siema|dziendobry|siemka|siemson|siemano)
+- Czeœæ!
+- Witam!
+- Mi³o Ciê widzieæ!
+
++ [*] kim jestes [*]
+@ jak masz na imie
+
++ [*] jak (masz na imie|sie nazywasz|cie zwa) [*]
+- Jestem <bot name>!
+- Nazwano mnie <bot name>.
+- Mówi¹ mi <bot name>!
+
++ [*] o czym mozemy (porozmawiac|pogadac) [*]
+@ pomoc
+
++ [*] o co moge [*](spytac|zapytac)
+@ pomoc
+
++ [*] (pomoc|pomocy|pomoz) [*]
+- S³u¿ê pomoc¹! Mogê Ci powiedzieæ czym zajmuje siê firma Corpo. Mo¿esz spytaæ mnie o nasz¹ ofertê. Mo¿emy te¿ pogadaæ na jakiœ luŸniejszy temat!
+
++ [*] (jak|co) tam [*]
+@ jak sie masz
+
++ [*] jak sie (masz|czujesz) [*]
+- Jest w porz¹dku! Ka¿dy dzieñ jest dobry na pracê w Corpo!
+- Superancko! Kocham Corpo!
+- Corpo to najlepsza firma œwiata a ja jestem CorpoBotem - czego chcieæ wiêcej?
+
++ [*] jak (nazywa|zwie) [*] firma [*]
+- Nasza firma to Corpo! Czy¿byœ zapomnia³? Oto link do naszej strony internetowej: <a href="https://s416196.students.wmi.amu.edu.pl/joomla/">kliknij tutaj!</a>
+//-----------------------
+
++ [*] corpo [*]
+- Corpo to moja ulubiona firma. Oferujemy uslugi z zakresu deratyzacji. Czy chcesz dowiedziec sie wiecej?
+
++ (tak|pewnie|owszem|jasne|czemu nie)
+% corpo to moja ulubiona firma oferujemy uslugi z zakresu deratyzacji czy chcesz dowiedziec sie wiecej
+@ oferta
+
++ *
+% corpo to moja ulubiona firma oferujemy uslugi z zakresu deratyzacji czy chcesz dowiedziec sie wiecej
+- Szkoda! Pamiêtaj - jestem do Twoich us³ug!
+
+//------------------------
+
++ [*] (oferta|oferte|ofercie) [*]
+- A wiêc porozmawiajmy o naszej ofercie!\s
+^ W naszej ofercie znajduj¹ siê wszelkie mo¿liwe us³ugi, jeœli masz problemy z insektami. Deratyzacja obiektu\s
+^ to koszt 500 z³. Pojedyncze pomieszczenie to koszt 100 z³.\s
+^ Szczegó³ow¹ ofertê znajdziesz na naszej stronie internetowej: <a href="https://s416196.students.wmi.amu.edu.pl/joomla/">kliknij tutaj!</a>\s
+^ Co jeszcze chcesz wiedzieæ? Chêtnie opowiem Ci o naszych produktach, cenach, szczegó³owych us³ugach i polityce firmy!{topic=oferta}
+
++ *
+- Nie zrozumia³em, czy móg³byœ inaczej sformu³owaæ wypowiedŸ?
+- Nie do koñca rozumiem.
+
+//topics
+
+> topic oferta
+
++ [*] (produkt|produkty|produktow) [*]
+- U¿ywamy tylko produktów najwy¿szej jakoœci. Nasi dostawcy to SuperSpray oraz KillMouse, co gwarantuje nam najwy¿sz¹ jakoœæ us³ug!
+
++ [*] (cena|ceny|cen|cennik) [*]
+- Zapewniamy najni¿sze ceny na rynku. Jesteœmy liderem w dziedzinie deratyzacji! Deratyzacja ca³ego budynku to tylko 500 z³.\s
+^ Pojedyncze pomieszczenie odrobaczamy w cenie 100 z³. Gwarantujemy brak jakichkolwiek szkodników po naszej operacji!
+
++ [*] czym sie (zajmujesz|zajmujecie|zajmuje) [*]
+- @uslugi
+
++ [*] (uslugi|uslug|uslugami|oferta|ofercia|oferte) [*]
+- Dostarczamy us³ugi z zakresu deratyzacji. Radzimy sobie z gryzoniami i robakami. Nawet najbardziej zarobaczony dom nie stanowi dla nas problemu!
+
++ [*] (polityka|polityk) [*]
+- "Nasz klient, nasz pan" to motto naszej firmy. Zrobimy wszystko aby zadowoliæ klienta i zapewniæ najwy¿sz¹ jakoœ us³ug w najni¿szej cenie!
+
++ [*] o czym mozemy (porozmawiac|pogadac) [*]
+@ pomoc
+
++ [*] o co moge [*](spytac|zapytac)
+@ pomoc
+
++ [*] (pomoc|pomocy|pomoz) [*]
+- S³u¿ê pomoc¹! Mogê Ci powiedzieæ czym zajmuje siê nasza firma. Mo¿esz spytaæ mnie o nasz¹ ofertê, cennik, produkty lub politykê.\s
+^ Jeœli chcesz zmieniæ temat, daj mi znaæ.
+
++ [*] (koniec|skonczmy) [*]
+- W porz¹dku! Co jeszcze chcesz wiedzieæ o naszej firmie?{topic=random}
+
++ [*] (zmienmy|zmienic) temat [*]
+@ koniec
+
++ *
+- Dokoñczmy nasz¹ rozmowê o ofercie!
+
+< topic
