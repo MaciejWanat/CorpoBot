@@ -1,18 +1,34 @@
 ! version = 2.0
 
-+ (witam|witaj|czesc|hej|siemasz|siema|dziendobry|siemka)
++ (witam|witaj|czesc|hej|siemasz|siema|dziendobry|siemka|siemson|siemano)
 - Cześć!
 - Witam!
 - Miło Cię widzieć!
 
++ [*] kim jestes [*]
+@ jak masz na imie
+
++ [*] jak (masz na imie|sie nazywasz|cie zwa) [*]
+- Jestem <bot name>!
+- Nazwano mnie <bot name>.
+- Mówią mi <bot name>!
+
++ [*] o czym mozemy (porozmawiac|pogadac) [*]
+@ pomoc
+
++ [*] o co moge [*](spytac|zapytac)
+@ pomoc
+
 + [*] (pomoc|pomocy|pomoz) [*]
-- Służę pomocą! Mogę Ci powiedzieć czym zajmuje się nasza firma. Możesz spytać mnie jaka jest nasza oferta. Możesz spytać również o naszą politykę. Chętnie podzielę się też\n
-^ informacjami na temat używanych przez nas środków.
+- Służę pomocą! Mogę Ci powiedzieć czym zajmuje się firma Corpo. Możesz spytać mnie o naszą ofertę. Możemy też pogadać na jakiś luźniejszy temat!
 
 + [*] jak sie (masz|czujesz) [*]
 - Jest w porządku! Każdy dzień jest dobry na pracę w Corpo!
 - Superancko! Kocham Corpo!
 - Corpo to najlepsza firma świata a ja jestem CorpoBotem - czego chcieć więcej?
+
++ [*] jak (nazywa|zwie) [*] firma [*]
+- Nasza firma to Corpo! Czyżbyś zapomniał? Oto link do naszej strony internetowej: https://s416196.students.wmi.amu.edu.pl/joomla/
 
 //-----------------------
 
@@ -30,11 +46,12 @@
 //------------------------
 
 + [*] (oferta|oferte|ofercie) [*]
-- W naszej ofercie znajdują się wszelkie możliwe usługi, jeśli masz problemy z insektami. Deratyzacja obiektu\s
-^ to koszt 500 zł. Pojedyncze pomieszczenie to koszt 100 zł.
-
-+ o co moge [*](spytac|zapytac)
-@ pomoc
+- A więc porozmawiajmy o naszej ofercie!\s
+^ W naszej ofercie znajdują się wszelkie możliwe usługi, jeśli masz problemy z insektami. Deratyzacja obiektu\s
+^ to koszt 500 zł. Pojedyncze pomieszczenie to koszt 100 zł.\s
+^ Szczegółową ofertę znajdziesz na naszej stronie internetowej: https://s416196.students.wmi.amu.edu.pl/joomla/\s
+^ Co jeszcze chcesz wiedzieć? Chętnie opowiem Ci o naszych produktach, cenach, szczegółowych usługach i polityce firmy!{topic=oferta}
+//<a href="https://s416196.students.wmi.amu.edu.pl/joomla/">kliknij tutaj!</a>
 
 + *
 - Nie zrozumiałem, czy mógłbyś inaczej sformułować wypowiedź?
