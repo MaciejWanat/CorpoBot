@@ -19,19 +19,38 @@
 + [*] jak sie (masz|czujesz) [*]
 - Jest w porządku! Każdy dzień jest dobry na pracę w Corpo!
 - Superancko! Kocham Corpo!
-- Corpo to najlepsza firma świata a ja jestem CorpoBotem - czego chcieć więcej?
+- Jest świetnie - Corpo to najlepsza firma świata a ja jestem CorpoBotem, czego chcieć więcej?
 
-//////////////////
+//-----------------------
 
-+ [*] lubisz *?
-- Lubię <star>! A Ty?
++ [*] lubisz *
+- <set like=<star>>Lubię <star>! A Ty?
 
-+ ([*]tak[*]|pewnie|owszem|jasne|[*]ja tez[*])
-% lubie * a ty
-- Super! A więc oboje lubimy <star>!
++ ([*]tak[*]|pewnie|owszem|jasne|[*]ja tez[*]|oczywiscie)
+% lubię * a ty
+- Super! A więc oboje lubimy <get like>!
 
 + *
-% lubie * a ty
+% lubię * a ty
 - No trudno, nie musimy się we wszystkim zgadzać...
 
-//////////////////
+//-------------------------
+
++ [*] jaki [*] ulubiony kolor [*]
+- Mój ulubiony kolor to biskupi! A Twój?
+
++ [*] biskupi [*]
+% mój ulubiony kolor to biskupi a twój
+- No popatrz, oboje kochamy biskupi!
+
++ *
+% mój ulubiony kolor to biskupi a twój
+- <star> to też bardzo ładny kolor!
+
+//-------------------------
+
++ moje imie to *
+@ mam na imie <star>
+
++ [*] mam na imie *
+- Miło Cię poznać, <star>!

@@ -6,7 +6,7 @@
 - Używamy tylko produktów najwyższej jakości. Nasi dostawcy to SuperSpray oraz KillMouse, co gwarantuje nam najwyższą jakość usług!
 
 + [*] (cena|ceny|cen|cennik) [*]
-- Zapewniamy najniższe ceny na rynku. Jesteśmy liderem w dziedzinie deratyzacji! Deratyzacja całego budynku to tylko 500 zł.\s
+- Zapewniamy najniższe ceny na rynku. Jesteśmy liderem w dziedzinie deratyzacji! Deratyzacja całego budynku to tylko 500 zł.\n
 ^ Pojedyncze pomieszczenie odrobaczamy w cenie 100 zł. Gwarantujemy brak jakichkolwiek szkodników po naszej operacji!
 
 + [*] czym sie (zajmujesz|zajmujecie|zajmuje) [*]
@@ -25,11 +25,11 @@
 @ pomoc
 
 + [*] (pomoc|pomocy|pomoz) [*]
-- Służę pomocą! Mogę Ci powiedzieć czym zajmuje się nasza firma. Możesz spytać mnie o naszą ofertę, cennik, produkty lub politykę.\s
+- Mogę Ci powiedzieć czym zajmuje się nasza firma. Możesz spytać mnie o naszą ofertę, cennik, produkty lub politykę.\s
 ^ Jeśli chcesz zmienić temat, daj mi znać.
 
 + [*] (koniec|skonczmy) [*]
-- W porządku! Co jeszcze chcesz wiedzieć o naszej firmie?{topic=random}
+- W porządku!{topic=random}
 
 + [*] (zmienmy|zmienic) temat [*]
 @ koniec
