@@ -10,7 +10,7 @@
 ^ Pojedyncze pomieszczenie odrobaczamy w cenie 100 zł. Gwarantujemy brak jakichkolwiek szkodników po naszej operacji!
 
 + [*] czym sie (zajmujesz|zajmujecie|zajmuje) [*]
-- @uslugi
+@ uslugi
 
 + [*] (uslugi|uslug|uslugami|oferta|ofercia|oferte) [*]
 - Dostarczamy usługi z zakresu deratyzacji. Radzimy sobie z gryzoniami i robakami. Nawet najbardziej zarobaczony dom nie stanowi dla nas problemu!
@@ -28,16 +28,29 @@
 - Mogę Ci powiedzieć czym zajmuje się nasza firma. Możesz spytać mnie o naszą ofertę, cennik, produkty lub politykę.\s
 ^ Jeśli chcesz zmienić temat, daj mi znać.
 
-+ [*] (koniec|skonczmy) [*]
++ [*] (skonczmy) [*]
 - W porządku!{topic=random}
 
 + [*] (zmienmy|zmienic) temat [*]
-@ koniec
+@ skonczmy
 
 + [*] strona [*]
 - Nasza strona internetowa to: https://s416196.students.wmi.amu.edu.pl/joomla/. Znajdziesz tam wiele przydatnych informacji!
 
 + *
 - Dokończmy naszą rozmowę o ofercie!
+
+< topic
+
+> topic kolor
+
++ [*]biskupi[*]
+- No popatrz, oboje kochamy biskupi!{topic=random}
+
++ [*](niebieski|czerwony|zielony|zolty|pomaranczowy|fioletowy|bezowy|rozowy|czarny|bialy|szary)[*]
+- To także bardzo ładny kolor!{topic=random}
+
++ *
+- To chyba nie jest kolor...?
 
 < topic

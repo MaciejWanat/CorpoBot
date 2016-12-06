@@ -18,6 +18,42 @@
 - Nazwano mnie <bot name>.
 - Mówi¹ mi <bot name>!
 
++ [*] (jak|co) tam [*]
+@ jak sie masz
+
++ [*] jak sie (masz|czujesz) [*]
+- Jest w porz¹dku! Ka¿dy dzieñ jest dobry na pracê w Corpo!
+- Superancko! Kocham Corpo!
+- Corpo to najlepsza firma œwiata a ja jestem CorpoBotem - czego chcieæ wiêcej?
+
+//-----------------------
+
++ [*] lubisz *
+- <set like=<star>>Lubie <star>! A Ty?
+
++ ([*]tak[*]|pewnie|owszem|jasne|[*]ja tez[*]|oczywiscie)
+% lubie * a ty
+- Super! A wiêc oboje lubimy <get like>!
+
++ *
+% lubie * a ty
+- No trudno, nie musimy siê we wszystkim zgadzaæ...
+
+//-------------------------
+
++ [*] jaki [*] ulubiony kolor [*]
+- Moj ulubiony kolor to biskupi! A Twoj?
+
++ *
+% moj ulubiony kolor to biskupi a twoj
+- <star> to te¿ bardzo ³adny kolor!
+
++ moje imie to *
+@ mam na imie <star>
+
++ [*] mam na imie *
+- Mi³o Ciê poznaæ, <star>!
+
 + [*] o czym mozemy (porozmawiac|pogadac) [*]
 @ pomoc
 
@@ -27,16 +63,9 @@
 + [*] (pomoc|pomocy|pomoz) [*]
 - S³u¿ê pomoc¹! Mogê Ci powiedzieæ czym zajmuje siê firma Corpo. Mo¿esz spytaæ mnie o nasz¹ ofertê. Mo¿emy te¿ pogadaæ na jakiœ luŸniejszy temat!
 
-+ [*] (jak|co) tam [*]
-@ jak sie masz
-
-+ [*] jak sie (masz|czujesz) [*]
-- Jest w porz¹dku! Ka¿dy dzieñ jest dobry na pracê w Corpo!
-- Superancko! Kocham Corpo!
-- Corpo to najlepsza firma œwiata a ja jestem CorpoBotem - czego chcieæ wiêcej?
-
 + [*] jak (nazywa|zwie) [*] firma [*]
-- Nasza firma to Corpo! Czy¿byœ zapomnia³? Oto link do naszej strony internetowej: <a href="https://s416196.students.wmi.amu.edu.pl/joomla/">kliknij tutaj!</a>
+- Nasza firma to Corpo! Czy¿byœ zapomnia³? Oto link do naszej strony internetowej: https://s416196.students.wmi.amu.edu.pl/joomla/
+
 //-----------------------
 
 + [*] corpo [*]
@@ -63,8 +92,6 @@
 - Nie zrozumia³em, czy móg³byœ inaczej sformu³owaæ wypowiedŸ?
 - Nie do koñca rozumiem.
 
-//topics
-
 > topic oferta
 
 + [*] (produkt|produkty|produktow) [*]
@@ -75,7 +102,7 @@
 ^ Pojedyncze pomieszczenie odrobaczamy w cenie 100 z³. Gwarantujemy brak jakichkolwiek szkodników po naszej operacji!
 
 + [*] czym sie (zajmujesz|zajmujecie|zajmuje) [*]
-- @uslugi
+@ uslugi
 
 + [*] (uslugi|uslug|uslugami|oferta|ofercia|oferte) [*]
 - Dostarczamy us³ugi z zakresu deratyzacji. Radzimy sobie z gryzoniami i robakami. Nawet najbardziej zarobaczony dom nie stanowi dla nas problemu!
@@ -98,6 +125,9 @@
 
 + [*] (zmienmy|zmienic) temat [*]
 @ koniec
+
++ [*] strona [*]
+- Nasza strona internetowa to: <a href="https://s416196.students.wmi.amu.edu.pl/joomla/">kliknij tutaj!</a>. Znajdziesz tam wiele przydatnych informacji!
 
 + *
 - Dokoñczmy nasz¹ rozmowê o ofercie!
