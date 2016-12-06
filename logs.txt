@@ -1,0 +1,90 @@
+2016-12-06 18:13
+
+U¿ytkownik > 	Witaj!
+CorpoBot   > 	Mi³o Ciê widzieæ!
+U¿ytkownik > 	Jak siê masz?
+CorpoBot   > 	Superancko! Kocham Corpo!
+U¿ytkownik > 	Jak masz na imiê?
+CorpoBot   > 	Jestem CorpoBot!
+U¿ytkownik > 	Jak siê czujesz?
+CorpoBot   > 	Jest œwietnie - Corpo to najlepsza firma œwiata a ja jestem CorpoBotem, czego chcieæ wiêcej?
+U¿ytkownik > 	Jaki jest Twój ulubiony kolor?
+CorpoBot   > 	Mój ulubiony kolor to biskupi! A Twój?
+U¿ytkownik > 	Mój ulubiony kolor to te¿ biskupi!
+CorpoBot   > 	moj ulubiony kolor to tez biskupi to te¿ bardzo ³adny kolor!
+U¿ytkownik > 	koniec
+
+---------------------------------
+
+2016-12-06 18:36
+
+U¿ytkownik > 	JAki jest Twój ulubiony kolor?
+CorpoBot   > 	Mój ulubiony kolor to biskupi! A Twój?
+U¿ytkownik > 	Mój ulubiony kolor to tak¿e biskupi!
+CorpoBot   > 	No popatrz, oboje kochamy biskupi!
+U¿ytkownik > 	koniec
+
+---------------------------------
+
+2016-12-06 18:37
+
+U¿ytkownik > 	Czeœæ?
+CorpoBot   > 	Czeœæ!
+U¿ytkownik > 	O czym mo¿emy pogadaæ?
+CorpoBot   > 	Mogê Ci powiedzieæ czym zajmuje siê firma Corpo. Mo¿esz spytaæ mnie o nasz¹ ofertê. Mo¿emy te¿ pogadaæ na jakiœ luŸniejszy temat!
+U¿ytkownik > 	Powiedz mi, czym zajmuje siê firma Corpo.
+CorpoBot   > 	Corpo to moja ulubiona firma. Oferujemy us³ugi z zakresu deratyzacji. Czy chcesz dowiedzieæ siê wiêcej?
+U¿ytkownik > 	Nie.
+CorpoBot   > 	Szkoda! Pamiêtaj - jestem do Twoich us³ug!
+U¿ytkownik > 	No dobrze, opowiedz o waszej ofercie.
+CorpoBot   > 	A wiêc porozmawiajmy o naszej ofercie!
+W naszej ofercie znajduj¹ siê wszelkie mo¿liwe us³ugi, jeœli masz problemy z insektami. Deratyzacja obiektu to koszt 500 z³. Pojedyncze pomieszczenie to koszt 100 z³.
+Szczegó³ow¹ ofertê znajdziesz na naszej stronie internetowej: https://s416196.students.wmi.amu.edu.pl/joomla/
+Co jeszcze chcesz wiedzieæ? Chêtnie opowiem Ci o naszych produktach, cenach, szczegó³owych us³ugach i polityce firmy!
+U¿ytkownik > 	Jakie s¹ wasze ceny?
+CorpoBot   > 	Zapewniamy najni¿sze ceny na rynku. Jesteœmy liderem w dziedzinie deratyzacji! Deratyzacja ca³ego budynku to tylko 500 z³.
+Pojedyncze pomieszczenie odrobaczamy w cenie 100 z³. Gwarantujemy brak jakichkolwiek szkodników po naszej operacji!
+U¿ytkownik > 	Jaki jest Twój ulubiony kolor?
+CorpoBot   > 	Dokoñczmy nasz¹ rozmowê o ofercie!
+U¿ytkownik > 	Chcia³bym zmieniæ temat.
+CorpoBot   > 	W porz¹dku!
+U¿ytkownik > 	Jaki jest Twój ulubiony kolor?
+CorpoBot   > 	Mój ulubiony kolor to biskupi! A Twój?
+U¿ytkownik > 	Niebieski
+CorpoBot   > 	niebieski to te¿ bardzo ³adny kolor!
+U¿ytkownik > 	Koniec
+
+---------------------------------
+
+2016-12-06 18:41
+
+U¿ytkownik > 	Czeœæ!
+CorpoBot   > 	Witam!
+U¿ytkownik > 	Jak siê masz?
+CorpoBot   > 	Jest w porz¹dku! Ka¿dy dzieñ jest dobry na pracê w Corpo!
+U¿ytkownik > 	Jaki jest twój ulubiony kolor?
+CorpoBot   > 	Mój ulubiony kolor to biskupi! A Twój?
+U¿ytkownik > 	Nie mam ulubionego koloru :(
+CorpoBot   > 	nie mam ulubionego koloru to te¿ bardzo ³adny kolor!
+U¿ytkownik > 	Koniec
+
+---------------------------------
+
+2016-12-06 18:48
+
+U¿ytkownik > 	Czesæ!
+CorpoBot   > 	Mi³o Ciê widzieæ!
+U¿ytkownik > 	Jaki jest Twój ulubiony kolor?
+CorpoBot   > 	Mój ulubiony kolor to biskupi! A Twój? 
+U¿ytkownik > 	A mój nie!
+CorpoBot   > 	To chyba nie jest kolor...?
+U¿ytkownik > 	Lubiê czerwony
+CorpoBot   > 	To tak¿e bardzo ³adny kolor!
+U¿ytkownik > 	Lubisz koty?
+CorpoBot   > 	Lubiê koty! A Ty?
+U¿ytkownik > 	Ja nie lubiê kotów! Wolê psy!
+CorpoBot   > 	No trudno, nie musimy siê we wszystkim zgadzaæ...
+U¿ytkownik > 	Koniec
+
+---------------------------------
+

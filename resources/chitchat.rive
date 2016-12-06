@@ -23,10 +23,10 @@
 
 //-----------------------
 
-+ [*] lubisz *
++ [*]lubisz *[*]
 - <set like=<star>>Lubię <star>! A Ty?
 
-+ ([*]tak[*]|pewnie|owszem|jasne|[*]ja tez[*]|oczywiscie)
++ ([*]tak[*]|pewnie|owszem|jasne|[*]tez[*]|oczywiscie)
 % lubię * a ty
 - Super! A więc oboje lubimy <get like>!
 
@@ -37,15 +37,7 @@
 //-------------------------
 
 + [*] jaki [*] ulubiony kolor [*]
-- Mój ulubiony kolor to biskupi! A Twój?
-
-+ [*] biskupi [*]
-% mój ulubiony kolor to biskupi a twój
-- No popatrz, oboje kochamy biskupi!
-
-+ *
-% mój ulubiony kolor to biskupi a twój
-- <star> to też bardzo ładny kolor!
+- Mój ulubiony kolor to biskupi! A Twój? {topic=kolor}
 
 //-------------------------
 
