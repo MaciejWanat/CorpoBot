@@ -1,4 +1,4 @@
-! version = 2.0
+﻿! version = 2.0
 
 + (witam|witaj|czesc|hej|siemasz|siema|dziendobry|siemka|siemson|siemano)
 - Cześć!
@@ -26,12 +26,13 @@
 + [*]lubisz *[*]
 - <set like=<star>>Lubię <star>! A Ty?
 
-+ ([*]tak[*]|pewnie|owszem|jasne|[*]tez[*]|oczywiscie)
-% lubię * a ty
+//+ ([*]tak[*]|pewnie|owszem|jasne|[*]tez[*]|oczywiscie)
++ [*](tak|pewnie|owszem|jasne|tez|oczywiscie)[*]
+% lubię <get like> a ty
 - Super! A więc oboje lubimy <get like>!
 
 + *
-% lubię * a ty
+% lubię <get like> a ty
 - No trudno, nie musimy się we wszystkim zgadzać...
 
 //-------------------------
