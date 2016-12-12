@@ -11,7 +11,7 @@ bot.sort_replies()
 print("Witaj! Mam na imię CorpoBot i moim zadaniem jest przybliżyć Ci ofertę firmy Corpo. Możemy też trochę pogadać.\n"
       "Jeśli Ci się znudzi, po prostu wpisz 'koniec'!\n"
       "Jeśli brakuje Ci pomysłu, o czym moglibyśmy pogadać, poproś mnie o pomoc.\n"
-      "W czym mogę Ci pomóc?")
+      "Czy chcesz abym przedstawił Ci naszą ofertę?")
 
 while True:
 

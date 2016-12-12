@@ -1,4 +1,12 @@
-! version = 2.0
+﻿! version = 2.0
+
+> begin
+
+  + request
+  * <get a> == undefined => <set a=true>{topic=start}{ok}
+  - {ok}
+
+< begin
 
 + [*] o czym mozemy (porozmawiac|pogadac) [*]
 @ pomoc
@@ -17,7 +25,7 @@
 + [*] corpo [*]
 - Corpo to moja ulubiona firma. Oferujemy usługi z zakresu deratyzacji. Czy chcesz dowiedzieć się więcej?
 
-+ (tak|pewnie|owszem|jasne|czemu nie)
++ [*](tak|pewnie|owszem|jasne|czemu nie)[*]
 % corpo to moja ulubiona firma oferujemy usługi z zakresu deratyzacji czy chcesz dowiedzieć się więcej
 @ oferta
 

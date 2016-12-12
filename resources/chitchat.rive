@@ -1,6 +1,6 @@
 ! version = 2.0
 
-+ (witam|witaj|czesc|hej|siemasz|siema|dzien dobry|siemka|siemson|siemano)
++ (witam|witaj|czesc|hej|siemasz|siema|dzien dobry|siemka|siemson|siemano|elo elo)
 - Cześć!
 - Witam!
 - Miło Cię widzieć!
@@ -42,10 +42,10 @@
 //-------------------------
 
 + moje imie to *
-@ mam na imie <star>
+@ mam na imie <star> <set uname=star>
 
 + [*] mam na imie *
-- Miło Cię poznać, <star>!
+- Miło Cię poznać, <star> <set uname=star>!
 
 //-------------------------
 
