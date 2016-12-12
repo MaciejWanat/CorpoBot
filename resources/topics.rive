@@ -2,8 +2,8 @@
 
 > topic start
 
-  + [*](tak|pewnie|owszem|jasne|czemu nie|bardzo|dobrze|ok)[*]
-  - A więc porozmawiajmy o naszej ofercie!\n
+  + [*](tak|pewnie|owszem|jasne|czemu nie|bardzo|dobrze|ok|oczywiscie|poprosze)[*]
+  - Porozmawiajmy więc o naszej ofercie!\n
     ^ W naszej ofercie znajdują się wszelkie możliwe usługi, jeśli masz problemy z insektami. Deratyzacja obiektu\s
     ^ to koszt 500 zł. Pojedyncze pomieszczenie to koszt 100 zł.\n
     ^ Szczegółową ofertę znajdziesz na naszej stronie internetowej: https://s416196.students.wmi.amu.edu.pl/joomla/\n
@@ -21,8 +21,8 @@
 
 > topic start2
 
-  + [*](tak|pewnie|owszem|jasne|czemu nie|bardzo|dobrze|ok)[*]
-  - A więc porozmawiajmy o naszej ofercie!\n
+  + [*](tak|pewnie|owszem|jasne|czemu nie|bardzo|dobrze|ok|oczywiscie)[*]
+  - Porozmawiajmy więc o naszej ofercie!\n
     ^ W naszej ofercie znajdują się wszelkie możliwe usługi, jeśli masz problemy z insektami. Deratyzacja obiektu\s
     ^ to koszt 500 zł. Pojedyncze pomieszczenie to koszt 100 zł.\n
     ^ Szczegółową ofertę znajdziesz na naszej stronie internetowej: https://s416196.students.wmi.amu.edu.pl/joomla/\n
@@ -54,6 +54,10 @@
 + [*] (uslugi|uslug|uslugami|oferta|ofercia|oferte) [*]
 - Dostarczamy usługi z zakresu deratyzacji. Oferujemy: odrobaczanie chemiczne, wyceny kosztów deratyzacji bądź też wspólne polowania na insekty z dwururką. Co cię interesuje?
 
++ [*](odrobaczanie|odrobaczaniem|odrobaczaniu)[*]
+% dostarczamy usługi z zakresu deratyzacji oferujemy odrobaczanie chemiczne wyceny kosztów deratyzacji bądź też wspólne polowania na insekty z dwururką co cię interesuje
+- No tak, klasyka! A więc koszt takiego zabiegu to 100 zł dla pomieszczenia, 500 zł dla obiektu. Czas jest uzależniony od wielkości budynku - zwykle około tygodnia. Czy interesuje Cię coś jeszcze z naszej oferty?
+
 + [*] (chemiczne|chemicznym) [*]
 % dostarczamy usługi z zakresu deratyzacji oferujemy odrobaczanie chemiczne wyceny kosztów deratyzacji bądź też wspólne polowania na insekty z dwururką co cię interesuje
 - No tak, klasyka! A więc koszt takiego zabiegu to 100 zł dla pomieszczenia, 500 zł dla obiektu. Czas jest uzależniony od wielkości budynku - zwykle około tygodnia. Czy interesuje Cię coś jeszcze z naszej oferty?
@@ -61,7 +65,7 @@
 + [*](wyceny|wyceną|wycenach)[*]
 % dostarczamy usługi z zakresu deratyzacji oferujemy odrobaczanie chemiczne wyceny kosztów deratyzacji bądź też wspólne polowania na insekty z dwururką co cię interesuje
 - Wyceniamy koszta deratyzacji zależnie od wielkości obiektu który należy wyczyścić. Zwykle koszt pomieszczenia to 100zł lub 500zł dla obiektu, lecz koszta czasami się zwiększają
-- \sze względu na warunki pracy lub wymagany czas realizacji. Czy coś interesuje Cię coś jeszcze odnośnie naszej oferty?
+^ \sze względu na warunki pracy lub wymagany czas realizacji. Czy coś interesuje Cię coś jeszcze odnośnie naszej oferty?
 
 + [*](polowanie|polowaniu|polowaniem)[*]
 % dostarczamy usługi z zakresu deratyzacji oferujemy odrobaczanie chemiczne wyceny kosztów deratyzacji bądź też wspólne polowania na insekty z dwururką co cię interesuje
@@ -71,14 +75,14 @@
 //---------------------------
 
 + [*] (polityka|polityk) [*]
-- "Nasz klient, nasz pan" to motto naszej firmy. Zrobimy wszystko aby zadowolić klienta i zapewnić najwyższą jakoś usług w najniższej cenie! Czy czujesz się dobrze traktowany przez naszą firmę?
+- Nasz klient nasz pan to motto naszej firmy. Zrobimy wszystko aby zadowolić klienta i zapewnić najwyższą jakość usług w najniższej cenie! Czy czujesz się dobrze traktowany przez naszą firmę?
 
-+ [*](tak|pewnie|owszem|jasne|czemu nie|bardzo|dobrze|ok)[*]
-% nasz klient nasz pan to motto naszej firmy zrobimy wszystko aby zadowolić klienta i zapewnić najwyższą jakoś usług w najniższej cenie czy czujesz się dobrze traktowany przez naszą firmę
++ [*](tak|pewnie|owszem|jasne|czemu nie|bardzo|dobrze|ok|oczywiscie)[*]
+% nasz klient nasz pan to motto naszej firmy zrobimy wszystko aby zadowolić klienta i zapewnić najwyższą jakość usług w najniższej cenie czy czujesz się dobrze traktowany przez naszą firmę
 - Bardzo się cieszę z tego powodu! Co jeszcze interesuje Cię w naszej ofercie?
 
 + *
-% nasz klient nasz pan to motto naszej firmy zrobimy wszystko aby zadowolić klienta i zapewnić najwyższą jakoś usług w najniższej cenie czy czujesz się dobrze traktowany przez naszą firmę
+% nasz klient nasz pan to motto naszej firmy zrobimy wszystko aby zadowolić klienta i zapewnić najwyższą jakość usług w najniższej cenie czy czujesz się dobrze traktowany przez naszą firmę
 - Czy to znaczy że czujesz się źle traktowany/a? Zawsze możesz wejść na naszą stronę i złożyć zażalenie! Czy w naszej ofercie interesuje Cię coś jeszcze?
 
 //---------------------------
@@ -110,7 +114,7 @@
 - Nasza strona internetowa to: https://s416196.students.wmi.amu.edu.pl/joomla/. Znajdziesz tam wiele przydatnych informacji!
 
 + *
-- Dokończmy naszą rozmowę o ofercie!
+- Dokończmy naszą rozmowę o ofercie! Chętnie opowiem Ci o naszych produktach, cenach, szczegółowych usługach lub polityce firmy.
 
 < topic
 
