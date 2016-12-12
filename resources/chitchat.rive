@@ -1,6 +1,6 @@
 ! version = 2.0
 
-+ (witam|witaj|czesc|hej|siemasz|siema|dziendobry|siemka|siemson|siemano)
++ (witam|witaj|czesc|hej|siemasz|siema|dzien dobry|siemka|siemson|siemano)
 - Cześć!
 - Witam!
 - Miło Cię widzieć!
@@ -26,8 +26,7 @@
 + [*]lubisz *[*]
 - <set like=<star>>Lubię <star>! A Ty?
 
-//+ ([*]tak[*]|pewnie|owszem|jasne|[*]tez[*]|oczywiscie)
-+ [*](tak|pewnie|owszem|jasne|tez|oczywiscie)[*]
++ [*](tak|pewnie|owszem|jasne|tez|oczywiscie|bardzo)[*]
 % lubię <get like> a ty
 - Super! A więc oboje lubimy <get like>!
 
@@ -37,7 +36,7 @@
 
 //-------------------------
 
-+ [*] jaki [*] ulubiony kolor [*]
++ [*] jaki [*] kolor [*]
 - Mój ulubiony kolor to biskupi! A Twój? {topic=kolor}
 
 //-------------------------
@@ -47,3 +46,29 @@
 
 + [*] mam na imie *
 - Miło Cię poznać, <star>!
+
+//-------------------------
+
++ [*] kim jest * [*]
+- Niestety, nie wiem kim jest <star> :(
+
++ [*] gdzie (jest|znajduje sie|lezy) * [*]
+- Nie wiem gdzie jest <star2>. Jestem tylko CorpoBotem.
+
+//-------------------------
+
++ what is love
+- Baby dont hurt me.
+
++ dont hurt me
+% baby dont hurt me
+- No more.
+
++ *
+% dont hurt me
+- No more.
+
+//-------------------------
+
++ l
+- :l
